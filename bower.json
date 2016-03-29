@@ -1,0 +1,27 @@
+{
+  "name": "LaravelIntroPresentation",
+  "homepage": "https://github.com/jonafrank/LaravelntroPresentation",
+  "description": "slides for Laravel Talk",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "laravel",
+    "slides",
+    "presentation"
+  ],
+  "authors": [
+    "Jonatan Frank"
+  ],
+  "license": "Apache 2.0",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "impress.js": "^0.5.3"
+  }
+}
