@@ -121,6 +121,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
     line-height: 1;
+
 }
 ol, ul {
     list-style: none;
@@ -148,6 +149,7 @@ body {
     background:         radial-gradient(rgb(244, 100, 95), rgb(244, 140, 140));
 
     -webkit-font-smoothing: antialiased;
+    color: #525252;
 }
 
 b, strong { font-weight: bold }
@@ -343,6 +345,23 @@ body     { pointer-events: none; }
 .impress-not-supported .fallback-message {
     display: block;
 }
+.header {
+    height: 50px;
+    width: 100%;
+    background-color: #e74430;
+    color: #f7f7f7;
+}
+.header span {
+    padding-left: 10px;
+    font-weight: bold;
+}
+.content {
+    padding-left: 30px;
+}
+#impress ul {
+    list-style-type: disc;
+}
+
 #slide-1 {
     text-align: center;
 }
@@ -363,4 +382,7 @@ body     { pointer-events: none; }
 #slide-1 .credits {
     margin-top: 80px;
     font-size: 25px;
+}
+#slide-2 ul {
+    margin-top: 60px;
 }
