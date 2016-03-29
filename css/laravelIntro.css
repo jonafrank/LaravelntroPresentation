@@ -386,3 +386,7 @@ body     { pointer-events: none; }
 #slide-2 ul {
     margin-top: 60px;
 }
+#slide-3 img {
+    height: 420px;
+    margin-top: 60px;
+}
