@@ -393,3 +393,7 @@ body     { pointer-events: none; }
     height: 420px;
     margin-top: 60px;
 }
+#slide-5 img {
+    height: 410px;
+    margin-top: 50px;
+}
