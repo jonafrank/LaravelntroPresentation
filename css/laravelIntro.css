@@ -358,6 +358,9 @@ body     { pointer-events: none; }
 .content {
     padding-left: 30px;
 }
+.path {
+    font-size: 20px;
+}
 #impress ul {
     list-style-type: disc;
 }
@@ -396,4 +399,10 @@ body     { pointer-events: none; }
 #slide-5 img {
     height: 410px;
     margin-top: 50px;
+}
+#slide-6 .img1 {
+    height: 135px;
+}
+#slide-6 .img2 {
+    height: 406px;
 }
