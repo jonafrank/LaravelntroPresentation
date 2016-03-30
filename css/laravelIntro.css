@@ -406,3 +406,6 @@ body     { pointer-events: none; }
 #slide-6 .img2 {
     height: 406px;
 }
+#slide-9 img {
+    height: 600px;
+}
