@@ -127,8 +127,100 @@
                 <div class="header">
                     <span>HTTP Middlewares</span>
                 </div>
+                <div class="content">
+                    <h4>Assigning Middleware To Routes</h4>
+                    <img src="img/slide10-1.png" >
+                    <img src="img/slide10-2.png" >
+                    <img src="img/slide10-3.png" >
+                    <p class="warning">
+                        Laravel 5.2 implements Cache & Session Services into a "web" middleware route so if you want to use them you must include your route inside this middleware
+                    </p>
+                </div>
+            </div>
+            <div id="slide-11" class="step slide" data-x="9000">
+                <div class="header">
+                    <span>Blade Templates</span>
+                </div>
+                <div class="content">
+                    <img src="img/slide11-1.png">
+                    <img src="img/slide11-2.png">
+                </div>
+            </div>
+            <div id="slide-12" class="step slide" data-x="10000">
+                <div class="header">
+                    <span>Eloquent ORM</span>
+                </div>
+                <div class="content">
+                    <p>
+                        The Eloquent ORM included with Laravel provides a beautiful, simple ActiveRecord implementation for working with your database.
+                        Each database table has a corresponding "Model" which is used to interact with that table.
+                        Models allow you to query for data in your tables, as well as insert new records into the table.
+                    </p>
+                    <p>
+                        <pre>
+<code>php artisan make:model User</code>
+<code>php artisan make:model User --migration</code>
+<code>php artisan make:model User -m</code>
+                        </pre>
+                    </p>
+                </div>
+            </div>
+            <div id="slide-13" class="step slide" data-x="11000">
+                <div class="header">
+                    <span>Queues</span>
+                </div>
+                <div class="content">
+                    <p>
+                        The Laravel queue service provides a unified API across a variety of different queue back-ends.
+                        Queues allow you to defer the processing of a time consuming task, such as sending an e-mail,
+                        until a later time which drastically speeds up web requests to your application.
+                    </p>
+                </div>
+            </div>
+            <div id="slide-14" class="step slide" data-x="12000">
+                <div class="header">
+                    <span>Task Scheduling</span>
+                </div>
+                <div class="content">
+                    <p>
+                        In the past, developers have generated a Cron entry for each task they need to schedule. However, this is a headache.
+                        Your task schedule is no longer in source control, and you must SSH into your server to add the Cron entries.
+                        The Laravel command scheduler allows you to fluently and expressively define your command schedule within Laravel itself,
+                        and only a single Cron entry is needed on your server.
+                    </p>
+                    <pre>
+<code>* * * * * php /path/to/artisan schedule:run >> /dev/null 2>&1</code>
+                    </pre>
+                </div>
+            </div>
+            <div id="slide-15" class="step slide" data-x="13000">
+                <div class="header">
+                    <span>Tinker \ PsySh</span>
+                </div>
+                <div class="content">
+                    <p>
+                        Better Show How it works.
+                    </p>
+                </div>
+            </div>
+            <div id="slide-16" class="step slide" data-x="14000">
+                <div class="header">
+                    <span>Elixir</span>
+                </div>
+                <div class="content">
+                    <p>
+                        Laravel Elixir provides a clean, fluent API for defining basic Gulp tasks for your Laravel application.
+                        Elixir supports several common CSS and JavaScript pre-processors, and even testing tools.
+                        Using method chaining, Elixir allows you to fluently define your asset pipeline. For example:
+                    </p>
+                    <img src="img/slide16-1.png">
+                </div>
+            </div>
+            <div id="slide-17" class="step slide" data-x="15000">
+                <img src="img/questions.jpg">
             </div>
         </div>
+
         <script src="bower_components/impress.js/js/impress.js"></script>
         <script>impress().init();</script>
 

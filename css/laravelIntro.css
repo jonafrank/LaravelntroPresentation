@@ -361,6 +361,13 @@ body     { pointer-events: none; }
 .path {
     font-size: 20px;
 }
+.warning {
+    background-color: #fc6f6f;
+    color: #f7f7f7;
+}
+code {
+    font-family: "Courier New", Courier, monospace
+}
 #impress ul {
     list-style-type: disc;
 }
@@ -408,4 +415,29 @@ body     { pointer-events: none; }
 }
 #slide-9 img {
     height: 600px;
+}
+#slide-11 img {
+    height: 300px;
+}
+#slide-12 p {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+#slide-14 p {
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+#slide-14 code {
+    font-size: 22px;
+}
+#slide-15 p {
+    font-size: 50px;
+    margin-top: 140px;
+}
+#slide-16 img {
+    height: 300px;
+}
+#slide-17 img {
+    height: 440px;
+    margin-top: 80px;
 }
